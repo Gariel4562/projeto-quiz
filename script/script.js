@@ -47,7 +47,7 @@ function start () {
     } else {
         window.alert(`Você está reprovado!`)
 
-        img.src = `imagens/quiiz.png`
+        img.src = `imagens/reproved.png`
 
 
     }
