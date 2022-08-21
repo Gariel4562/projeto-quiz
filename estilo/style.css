@@ -11,7 +11,7 @@ h1 {
 }
 
 #warning {
-    max-width:1450px;
+    max-width:1400px;
     height:200px;
     background-color: aquamarine;
     margin:auto;
@@ -37,12 +37,13 @@ h1 {
 div {
     margin:auto;
     
-    width:500px;
+    max-width:500px;
 }
 
 div #img {
     width:500px;
     height:500px;
+    margin-bottom:40px;
     
     
 
@@ -52,16 +53,51 @@ footer {
 
     background-color: black;
     color:white;
-
     text-align: center;
+
 
 }
 
 /*@media */ 
 
-@media screen and (max-width: 1200px ) {
-    #button {
-        text-align: center;
+
+@media screen and (max-width:1000px) {
+    div #img {
+        width:400px;
+        height:400px;
+        margin-left:100px;
+    }
+    #warning {
+        height:300px;
     }
 }
+
+@media screen and (max-width:800px) {
+    div #img {
+        width:300px;
+        height:300px;
+        margin-left:100px;
+    }
+    #warning {
+        height:300px;
+    }
+
+    
+}
+
+@media screen and (max-width:500px) {
+    div #img {
+        width:250px;
+        height:250px;
+        margin-left:100px;
+    }
+    #warning {
+        height:300px;
+    }
+    
+
+    
+}
+
+
 
