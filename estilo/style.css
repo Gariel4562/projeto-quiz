@@ -76,7 +76,8 @@ footer {
     div #img {
         width:300px;
         height:300px;
-        margin-left:100px;
+        text-align: center;
+
     }
     #warning {
         height:300px;
@@ -89,7 +90,7 @@ footer {
     div #img {
         width:250px;
         height:250px;
-        margin-left:100px;
+        text-align: center;
     }
     #warning {
         height:300px;
