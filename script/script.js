@@ -37,6 +37,8 @@ function start () {
         window.alert(`errou!`)
     }
 
+    // condições para aprovar
+
     if(pergunta1 == 'Brasilia' || pergunta1 == 'brasilia' && pergunta2 == 'Terra' || pergunta2 == 'terra' && pergunta3 == 'Pelé' || pergunta3 == 'pelé' && pergunta4 == '1945' && pergunta5 == '1918') {
         window.alert(`Parabéns você está aprovado!!!`)
 
